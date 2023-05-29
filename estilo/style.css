@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid.otf';
+    src: url('fontes/idroid.otf') format('otf');
+}
+
+body{
+    margin: 0px;
+    background-color: #468f73e0;
+    background-attachment: fixed;
+    text-align: justify;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #254a599d, #1C3D59);
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+header > h1{
+    margin: 12px;
+    font-size: 3em;
+
+    
+}
+
+nav{
+    background-color: #1C3D59;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 1.5em;
+}
+
+nav > a:hover{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.836);
+    font-weight: bolder;
+    color: #468f73e0;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.527);
+}
+
+.android{
+    color: rgb(31, 131, 31);
+    font-weight: bold;
+}
+
+p{
+    text-indent: 20px;
+}
+
+article > p{
+    margin: 0px 25px 15px 25px;
+}
+
+#extra{
+    background-color: #5da177;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+#article-extra{
+    padding: 12px;
+}
+
+#img-irina{
+    margin: 3px 0px;
+}
+
+#img-bugdroid{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.video{
+    text-align: center;
+}
+
+#extra > p{
+    margin: 0px 10px;
+
+}
+
+#extra > h2{
+    padding: 10px;
+    background-color: #1C3D59;
+    border-radius: 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    text-shadow: 1px 1px 1px white;
+    
+    
+}
+
+article > h1{
+    font-family: 'iDroid';
+    padding: 7px;
+    text-align: left;
+}
+
+h2{
+    font-family: 'iDroid';
+    padding: 7px;
+    background-image: linear-gradient(to right, #41b2bf38, #41bfbf15);
+    
+}
+
+#despedida{
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+
+footer{
+    height: 30px;
+    vertical-align: auto;
+    background-color: #254A59;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    }
+
+footer > p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
